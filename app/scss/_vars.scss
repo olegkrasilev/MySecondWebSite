@@ -1,0 +1,17 @@
+// Ввести ширину макета.
+$maxWidth: 1440; 
+@mixin adaptive-font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+
+@mixin f400{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+@mixin f700{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.body {
+    font-size: 18px;
+    line-height: 22px;
+}
